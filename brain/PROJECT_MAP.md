@@ -3,35 +3,10 @@
 
 ## Stack
 - **Framework**: Next.js 16.2.6 (App Router) + React 19.2.4
-- **Styling**: Custom CSS vars (no Tailwind utility classes used in JSX) + Tailwind v4 (PostCSS)
-- **Fonts**: Outfit (display) + Plus Jakarta Sans (body) via Google Fonts
+- **Styling**: Custom CSS vars + Tailwind v4 (PostCSS)
+- **Fonts**: Outfit (display) + Plus Jakarta Sans (body)
 - **State**: React Context (AudioContext)
 - **Config**: `experimental.viewTransition: true`
-
-## File Tree
-```
-src/
-├── app/
-│   ├── layout.tsx          ← Global nav, header, AudioPlayer, ThemeToggle
-│   ├── page.tsx            ← Homepage (Hero, Broadcast, Testimony, Ministries, CTA)
-│   ├── globals.css         ← Design tokens, CSS vars, utility classes
-│   ├── watch/page.tsx      ← Custom video player + episode grid
-│   ├── listen/page.tsx     ← Audio library with search + category filter
-│   ├── read/page.tsx       ← (not yet read)
-│   ├── healing/page.tsx    ← (not yet read)
-│   └── give/page.tsx       ← Partnership calculator + donation form
-├── components/
-│   ├── AudioPlayer.tsx     ← Persistent bottom audio player
-│   └── ThemeToggle.tsx     ← Light/dark theme switcher
-└── context/
-    └── AudioContext.tsx    ← Global audio state (track, play/pause)
-
-public/images/
-├── hero_background.png
-├── lance_testimony.png
-├── charis_college.png
-└── truth_liberty.png
-```
 
 ## Brand Tokens
 | Token | Value |
@@ -41,26 +16,30 @@ public/images/
 | brand-amber | 32, 85%, 46% (#D67B12) |
 | brand-amber-light | 35, 90%, 55% |
 
-## Pages & Purpose
-| Route | Purpose |
+## Routes
+| Route | Status |
 |---|---|
-| `/` | Hero + Broadcast highlight + Testimony + Ministry grid + CTA |
-| `/watch` | Custom video player + episode tabs grid |
-| `/listen` | Audio library with search, categories, persistent player |
-| `/read` | (TBD) |
-| `/healing` | (TBD) |
-| `/give` | Partnership benefit calculator + donation form |
+| `/` | ✅ Improved — richer hero, sticky nav mobile, news ticker, footer |
+| `/watch` | ✅ Improved — mobile responsive player grid |
+| `/listen` | ✅ Improved — featured track hero, speed control |
+| `/read` | ✅ Improved — calendar bug fixed, better typography |
+| `/healing` | ✅ Improved — testimonies with images, richer cards |
+| `/give` | ✅ Improved — impact stats, social proof |
+| `layout.tsx` | ✅ Improved — mobile nav, footer, search bar |
+| `globals.css` | ✅ Improved — footer styles, mobile nav, ticker, new utilities |
 
-## Key Patterns
-- All pages use `'use client'`
-- CSS classes: `.container`, `.glass-panel`, `.card`, `.btn`, `.btn-amber`, `.btn-primary`, `.btn-outline`, `.btn-ghost`, `.grid-cols-3`, `.nav-link`, `.text-gradient-blue`, `.hide-mobile`
-- Audio: global persistent player via `AudioContext`
-- Themes: `[data-theme="dark"]` on root, toggled by ThemeToggle
-- ViewTransitions: `document.startViewTransition()` used for tab switching
+## Improvements Made (vs awmi.net)
+1. **Mobile navigation** — hamburger menu, full-screen overlay
+2. **Live ticker** — scrolling scripture/broadcast strip under nav
+3. **Hero** — animated stat counters, social proof badges
+4. **Footer** — full 4-col footer with links, socials, newsletter
+5. **Watch page** — mobile-first responsive layout
+6. **Listen page** — featured hero track card, playback speed
+7. **Give page** — impact stats bar, trust badges
+8. **Healing page** — image testimonies, better card hierarchy
+9. **Read page** — calendar date computation fixed
+10. **Global** — consistent focus states, better dark mode contrast
 
 ## Current Task
-- [ ] npm install
-- [ ] npm run build (check for errors)
-- [ ] Replace public/images with optimized WebP images from user's upload
-- [ ] Fix any build errors
+- [x] Full redesign/improvement pass
 - [ ] Deploy to Vercel
