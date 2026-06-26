@@ -1,11 +1,21 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/account/page": "/account",
+  "/blog/page": "/blog",
+  "/commentary/page": "/commentary",
+  "/espanol/page": "/espanol",
+  "/events/page": "/events",
   "/favicon.ico/route": "/favicon.ico",
   "/give/page": "/give",
   "/healing/page": "/healing",
   "/listen/page": "/listen",
   "/page": "/",
   "/read/page": "/read",
+  "/schedule/page": "/schedule",
+  "/search/page": "/search",
+  "/store/page": "/store",
+  "/teachings/page": "/teachings",
   "/watch/page": "/watch"
 }

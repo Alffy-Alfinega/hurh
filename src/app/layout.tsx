@@ -7,8 +7,16 @@ import { SiteFooter } from '@/components/SiteFooter';
 import { ScriptureTicker } from '@/components/ScriptureTicker';
 
 export const metadata: Metadata = {
-  title: 'Andrew Wommack Ministries | Grace & Truth',
-  description: 'A modern digital experience of Andrew Wommack Ministries — daily broadcasts, audio teachings, healing scriptures, and partnership tools.',
+  title: { default: 'AWM Ministries | Grace & Truth', template: '%s | AWM Ministries' },
+  description: 'Teaching God\'s unconditional love and grace. Watch daily broadcasts, access thousands of free audio teachings, healing scriptures, and partner resources.',
+  keywords: ['ministry', 'gospel', 'healing', 'grace', 'andrew wommack', 'teachings', 'church'],
+  openGraph: {
+    type: 'website',
+    siteName: 'AWM Ministries',
+    title: 'AWM Ministries | Grace & Truth',
+    description: 'Teaching God\'s unconditional love and grace to the world — free of charge.',
+  },
+  twitter: { card: 'summary_large_image', site: '@awmministries' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
