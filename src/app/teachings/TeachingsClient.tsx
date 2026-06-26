@@ -34,7 +34,7 @@ export default function TeachingsClient() {
 
   return (
     <div>
-      <div style={{ background: 'linear-gradient(135deg, hsl(var(--brand-blue-dark)), #020617)', padding: '4rem 0 5rem', color: 'white' }}>
+      <div style={{ background: 'linear-gradient(135deg, hsl(var(--brand-blue-dark)), #020617)', padding: 'clamp(2rem,6vw,4rem) 0 clamp(2.5rem,7vw,5rem)', color: 'white' }}>
         <div className="container">
           <span className="eyebrow" style={{ color: 'hsl(var(--brand-amber))' }}>Free Resources</span>
           <h1 style={{ fontSize: 'clamp(2rem,4vw,3rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '0.75rem' }}>Browse All Teachings</h1>

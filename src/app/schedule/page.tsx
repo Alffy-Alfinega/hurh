@@ -43,7 +43,7 @@ export default function SchedulePage() {
         </div>
         <div className="glass-panel" style={{ padding: '2rem' }}>
           <h3 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '1rem' }}>Time Zone Converter</h3>
-          <div className="grid-cols-4">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.75rem' }}>
             {TIMEZONES.map(tz => (
               <div key={tz.zone} style={{ textAlign: 'center', padding: '1rem', background: 'var(--bg-primary)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-glass)' }}>
                 <div style={{ fontSize: '0.72rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '0.35rem' }}>{tz.zone}</div>

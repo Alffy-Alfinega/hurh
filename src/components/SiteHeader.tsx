@@ -95,7 +95,7 @@ export const SiteHeader: React.FC = () => {
           transition: 'box-shadow 0.3s ease',
         }}
       >
-        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 'var(--nav-height)', gap: '1rem' }}>
+        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 'var(--nav-height)', gap: '0.5rem', padding: '0 0' }}>
 
           {/* Logo */}
           <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontWeight: 800, fontSize: '1.2rem', fontFamily: 'var(--font-display)', flexShrink: 0 }}>

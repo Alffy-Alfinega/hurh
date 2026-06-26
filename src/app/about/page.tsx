@@ -20,7 +20,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero */}
-      <div style={{ background: 'linear-gradient(135deg, hsl(var(--brand-blue-dark)), #020617)', padding: '5rem 0 6rem', color: 'white' }}>
+      <div style={{ background: 'linear-gradient(135deg, hsl(var(--brand-blue-dark)), #020617)', padding: 'clamp(2.5rem, 8vw, 5rem) 0 clamp(3rem, 10vw, 6rem)', color: 'white' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <span className="eyebrow" style={{ color: 'hsl(var(--brand-amber))' }}>Our Story</span>
           <h1 style={{ fontSize: 'clamp(2rem,5vw,3.5rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '1rem', lineHeight: 1.1 }}>Teaching God's Unconditional Love & Grace</h1>
@@ -33,7 +33,7 @@ export default function AboutPage() {
       {/* Stats */}
       <div style={{ background: 'var(--bg-secondary)', borderBottom: '1px solid var(--border-glass)' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', padding: '2rem 0', gap: '1rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem 1rem', padding: '1.5rem 0' }}>
             {[['1978', 'Founded'], ['180+', 'Countries'], ['50M+', 'Lives Reached'], ['500+', 'Free Teachings'], ['40+', 'Languages'], ['Free', 'Always']].map(([n,l]) => (
               <div key={l} style={{ textAlign: 'center' }}>
                 <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '1.8rem', color: 'hsl(var(--brand-amber))' }}>{n}</div>

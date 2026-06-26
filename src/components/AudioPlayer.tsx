@@ -51,8 +51,8 @@ export const AudioPlayer: React.FC = () => {
       <div
         className="glass-panel"
         style={{
-          margin: '1rem',
-          padding: '1rem 1.5rem',
+          margin: '0.5rem',
+          padding: '0.75rem 1rem',
           borderRadius: 'var(--radius-md)',
           display: 'flex',
           flexDirection: 'column',
@@ -71,7 +71,7 @@ export const AudioPlayer: React.FC = () => {
           }}
         >
           {/* Track Details */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', minWidth: '220px', flex: '1 1 0' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', minWidth: 0, flex: '1 1 0' }}>
             <div
               style={{
                 width: '48px',

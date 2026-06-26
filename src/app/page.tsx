@@ -83,7 +83,7 @@ export default function Home() {
         {/* Stats band at bottom of hero */}
         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, background: 'rgba(0,0,0,0.4)', backdropFilter: 'blur(8px)', borderTop: '1px solid rgba(255,255,255,0.07)' }}>
           <div className="container">
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', padding: '1.25rem 0', gap: '1rem' }}>
+            <div className="stats-grid" style={{ padding: '1.1rem 0' }}>
               {STATS.map(s => (
                 <div key={s.label} className="stat-block">
                   <span className="stat-number">{s.number}</span>

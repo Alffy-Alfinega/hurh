@@ -23,7 +23,7 @@ export default function EventsClient() {
 
   return (
     <div>
-      <div style={{ background: 'linear-gradient(135deg, #0b4a2e, #020617)', padding: '4rem 0 5.5rem', color: 'white' }}>
+      <div style={{ background: 'linear-gradient(135deg, #0b4a2e, #020617)', padding: 'clamp(2rem,6vw,4rem) 0 clamp(2.5rem,7vw,5.5rem)', color: 'white' }}>
         <div className="container">
           <span className="eyebrow" style={{ color: 'hsl(var(--brand-amber))' }}>Calendar</span>
           <h1 style={{ fontSize: 'clamp(2rem,4vw,3rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '0.75rem' }}>Events & Conferences</h1>

@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AudioProvider>
           <ScriptureTicker />
           <SiteHeader />
-          <main style={{ flex: '1 0 auto', paddingBottom: 'calc(var(--player-height) + 1.5rem)' }}>
+          <main style={{ flex: '1 0 auto', paddingBottom: 'calc(var(--player-height) + 1rem)' }}>
             {children}
           </main>
           <SiteFooter />
