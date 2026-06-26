@@ -52,8 +52,8 @@
 - ✅ .gitignore — node_modules excluded
 - ✅ Per-page metadata (title + description) on every route
 - ✅ Suspense boundary on /search (useSearchParams)
-- ⏳ GitHub push (needs token)
-- ⏳ Vercel deploy (needs token)
+- ✅ GitHub push — Alffy-Alfinega/hurh (5 commits, clean history)
+- ⏳ Vercel deploy — needs manual connect at vercel.com/new (Vercel MCP uses separate auth from GitHub PAT)
 - ⏳ Client branding swap (name, colors, logo, images)
 
 ## vs awmi.net — Performance Comparison
