@@ -2,12 +2,12 @@
 import React, { useState } from 'react';
 
 const POSTS = [
-  { id: 1, title: "Why God's Love Is Unconditional", category: 'Grace', date: 'June 20, 2026', excerpt: "Many believers struggle to accept that God loves them regardless of their performance. Here's why that matters.", readTime: '5 min', cover: '/images/hero_background.png' },
-  { id: 2, title: '5 Healing Scriptures to Declare Daily', category: 'Healing', date: 'June 14, 2026', excerpt: 'Scripture is medicine to all your flesh (Proverbs 4:22). These five declarations will transform how you receive healing.', readTime: '4 min', cover: '/images/lance_testimony.png' },
-  { id: 3, title: 'What the New Birth Really Means', category: 'Identity', date: 'June 8, 2026', excerpt: "When you were born again, your spirit became identical to Jesus. Most Christians have never understood this.", readTime: '6 min', cover: '/images/truth_liberty.png' },
-  { id: 4, title: 'How to Study the Bible Effectively', category: 'Study', date: 'May 30, 2026', excerpt: "The Bible is not a rule book. It's a love letter. Here are Andrew's personal guidelines for daily reading.", readTime: '7 min', cover: '/images/charis_college.png' },
-  { id: 5, title: 'The Difference Between Soul and Spirit', category: 'Identity', date: 'May 22, 2026', excerpt: 'Confusing your soul and spirit leads to confusion in your walk with God. This distinction unlocks everything.', readTime: '5 min', cover: '/images/hero_background.png' },
-  { id: 6, title: 'Ministry Update: Healing Is Here 2026', category: 'Ministry', date: 'May 15, 2026', excerpt: 'Over 4,000 people attended this year\'s conference. Here are testimonies from the three days of ministry.', readTime: '8 min', cover: '/images/lance_testimony.png' },
+  { id: 1, title: "Why God's Love Is Unconditional", category: 'Grace', date: 'June 20, 2026', excerpt: "Many believers struggle to accept that God loves them regardless of their performance. Here's why that matters.", readTime: '5 min', cover: '/images/1000045321.webp' },
+  { id: 2, title: '5 Healing Scriptures to Declare Daily', category: 'Healing', date: 'June 14, 2026', excerpt: 'Scripture is medicine to all your flesh (Proverbs 4:22). These five declarations will transform how you receive healing.', readTime: '4 min', cover: '/images/1000045330.webp' },
+  { id: 3, title: 'What the New Birth Really Means', category: 'Identity', date: 'June 8, 2026', excerpt: "When you were born again, your spirit became identical to Jesus. Most Christians have never understood this.", readTime: '6 min', cover: '/images/1000045331.webp' },
+  { id: 4, title: 'How to Study the Bible Effectively', category: 'Study', date: 'May 30, 2026', excerpt: "The Bible is not a rule book. It's a love letter. Here are Our personal guidelines for daily reading.", readTime: '7 min', cover: '/images/1000045332.webp' },
+  { id: 5, title: 'The Difference Between Soul and Spirit', category: 'Identity', date: 'May 22, 2026', excerpt: 'Confusing your soul and spirit leads to confusion in your walk with God. This distinction unlocks everything.', readTime: '5 min', cover: '/images/1000045321.webp' },
+  { id: 6, title: 'Ministry Update: Healing Is Here 2026', category: 'Ministry', date: 'May 15, 2026', excerpt: 'Over 4,000 people attended this year\'s conference. Here are testimonies from the three days of ministry.', readTime: '8 min', cover: '/images/1000045330.webp' },
 ];
 const CATEGORIES = ['All', 'Grace', 'Healing', 'Identity', 'Study', 'Ministry'];
 

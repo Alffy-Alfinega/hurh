@@ -3,9 +3,9 @@
 import React, { useState } from 'react';
 
 const TIERS = [
-  { name: 'Grace Partner', minAmount: 10, maxAmount: 29, badge: 'Grace Circle', color: 'hsl(var(--brand-blue))', benefits: ['Monthly Andrew Wommack Newsletter (Print & Digital)', 'Partner Devotional booklet (mailed quarterly)', 'Personal prayer agreement from our ministers'] },
-  { name: 'Gospel Truth Partner', minAmount: 30, maxAmount: 99, badge: 'Gospel Envoy', color: 'hsl(var(--brand-blue-dark))', benefits: ['All Grace Partner benefits', '15% discount on all bookstore resources', 'Exclusive monthly teaching MP3 download', 'Online access to standard study commentaries'] },
-  { name: 'Pillar Partner', minAmount: 100, maxAmount: 299, badge: 'Ministry Pillar', color: 'hsl(var(--brand-amber))', benefits: ['All Gospel Truth Partner benefits', 'Full premium Living Commentary access', 'Complimentary study guides for new releases', 'Reserved VIP seating at all AWMI conferences'] },
+  { name: 'Grace Partner', minAmount: 10, maxAmount: 29, badge: 'Grace Circle', color: 'hsl(var(--brand-blue))', benefits: ['Monthly The Triumphant Ministry Newsletter (Print & Digital)', 'Partner Devotional booklet (mailed quarterly)', 'Personal prayer agreement from our ministers'] },
+  { name: 'Triumphant Gospel Partner', minAmount: 30, maxAmount: 99, badge: 'Gospel Envoy', color: 'hsl(var(--brand-blue-dark))', benefits: ['All Grace Partner benefits', '15% discount on all bookstore resources', 'Exclusive monthly teaching MP3 download', 'Online access to standard study commentaries'] },
+  { name: 'Pillar Partner', minAmount: 100, maxAmount: 299, badge: 'Ministry Pillar', color: 'hsl(var(--brand-amber))', benefits: ['All Triumphant Gospel Partner benefits', 'Full premium Living Commentary access', 'Complimentary study guides for new releases', 'Reserved VIP seating at all TMI conferences'] },
   { name: 'Foundation Pillar', minAmount: 300, maxAmount: 1000, badge: 'Foundation Circle', color: 'hsl(var(--brand-amber-light))', benefits: ['All Pillar Partner benefits', 'Autographed Leather Study Bible by Andrew', 'Annual Woodland Park Ranch partner banquet invite', 'Quarterly video briefings with ministry leadership'] },
 ];
 

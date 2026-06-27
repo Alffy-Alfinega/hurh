@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-export const metadata: Metadata = { title: 'About the Ministry', description: 'Learn about AWM Ministries — our mission, beliefs, leadership, and global reach.' };
+export const metadata: Metadata = { title: 'About the Ministry', description: 'Learn about The Triumphant Ministry — our mission, beliefs, leadership, and global reach.' };
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -13,9 +13,9 @@ export default function AboutPage() {
     { title: 'The Second Coming', body: 'Jesus Christ is returning bodily to earth. We live with expectation of His coming and occupy until He arrives.' },
   ];
   const TEAM = [
-    { name: 'Andrew Wommack', role: 'Founder & President', img: '/images/lance_testimony.png' },
-    { name: 'Jamie Wommack', role: 'Executive VP', img: '/images/hero_background.png' },
-    { name: 'Carrie Pickett', role: 'CEO, Charis Bible College', img: '/images/truth_liberty.png' },
+    { name: 'The Triumphant Ministry', role: 'Senior Pastor & Founder', img: '/images/1000045330.webp' },
+    { name: 'Director of Operations', role: 'Executive VP', img: '/images/1000045323.webp' },
+    { name: 'Head of Bible Institute', role: 'CEO, Triumphant Bible Institute', img: '/images/1000045324.webp' },
   ];
   return (
     <div>
@@ -25,7 +25,7 @@ export default function AboutPage() {
           <span className="eyebrow" style={{ color: 'hsl(var(--brand-amber))' }}>Our Story</span>
           <h1 style={{ fontSize: 'clamp(2rem,5vw,3.5rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '1rem', lineHeight: 1.1 }}>Teaching God's Unconditional Love & Grace</h1>
           <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: '1.05rem', lineHeight: 1.7 }}>
-            Andrew Wommack Ministries was founded in 1978 with one mission: to take God's message of grace and unconditional love to the world — free of charge. Today that message reaches over 180 countries and millions of people every year.
+            The Triumphant Ministry was founded in 1978 with one mission: to take God's message of grace and unconditional love to the world — free of charge. Today that message reaches over 180 countries and millions of people every year.
           </p>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/healing" className="btn btn-primary">Prayer Request</Link>
             <Link href="/give" className="btn btn-amber">Partner With Us</Link>
-            <a href="mailto:info@awmi.net" className="btn btn-outline">Email Us</a>
+            <a href="mailto:info@triumphantministry.com" className="btn btn-outline">Email Us</a>
           </div>
         </div>
       </div>

@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 
 const CATEGORIES = ['All', 'Books', 'Audio', 'Video', 'Study Packs', 'Free'];
 const PRODUCTS = [
-  { id: 1, title: 'Grace, The Power of the Gospel', category: 'Books', price: 15, originalPrice: null as number | null, free: false, cover: '/images/hero_background.png', description: 'The most life-changing book on grace you will ever read.' },
-  { id: 2, title: 'Spirit, Soul & Body USB', category: 'Audio', price: 0, originalPrice: null as number | null, free: true, cover: '/images/truth_liberty.png', description: 'All four parts of the Spirit, Soul & Body series — free download.' },
-  { id: 3, title: "The Believer's Authority", category: 'Audio', price: 12, originalPrice: 16 as number | null, free: false, cover: '/images/charis_college.png', description: 'Four-part audio series on your God-given authority as a believer.' },
-  { id: 4, title: "God's Will for You", category: 'Books', price: 10, originalPrice: null as number | null, free: false, cover: '/images/hero_background.png', description: "Discover what God's will really is — and how to walk in it daily." },
-  { id: 5, title: 'Healing Journey Study Pack', category: 'Study Packs', price: 35, originalPrice: 50 as number | null, free: false, cover: '/images/lance_testimony.png', description: 'Book + 4-part audio + scripture declaration card set for healing.' },
-  { id: 6, title: 'The New You & the Holy Spirit', category: 'Video', price: 0, originalPrice: null as number | null, free: true, cover: '/images/truth_liberty.png', description: 'Six-part video series — stream free online.' },
-  { id: 7, title: 'Christian Survival Kit', category: 'Free', price: 0, originalPrice: null as number | null, free: true, cover: '/images/charis_college.png', description: 'Six foundational booklets for new and growing believers.' },
-  { id: 8, title: "Andrew's Classics Collection", category: 'Audio', price: 49, originalPrice: 79 as number | null, free: false, cover: '/images/hero_background.png', description: '20+ foundational teaching series on one USB drive.' },
+  { id: 1, title: 'Grace, The Power of the Gospel', category: 'Books', price: 15, originalPrice: null as number | null, free: false, cover: '/images/1000045321.webp', description: 'The most life-changing book on grace you will ever read.' },
+  { id: 2, title: 'Spirit, Soul & Body USB', category: 'Audio', price: 0, originalPrice: null as number | null, free: true, cover: '/images/1000045334.webp', description: 'All four parts of the Spirit, Soul & Body series — free download.' },
+  { id: 3, title: "The Believer's Authority", category: 'Audio', price: 12, originalPrice: 16 as number | null, free: false, cover: '/images/1000045333.webp', description: 'Four-part audio series on your God-given authority as a believer.' },
+  { id: 4, title: "God's Will for You", category: 'Books', price: 10, originalPrice: null as number | null, free: false, cover: '/images/1000045321.webp', description: "Discover what God's will really is — and how to walk in it daily." },
+  { id: 5, title: 'Healing Journey Study Pack', category: 'Study Packs', price: 35, originalPrice: 50 as number | null, free: false, cover: '/images/1000045336.webp', description: 'Book + 4-part audio + scripture declaration card set for healing.' },
+  { id: 6, title: 'The New You & the Holy Spirit', category: 'Video', price: 0, originalPrice: null as number | null, free: true, cover: '/images/1000045334.webp', description: 'Six-part video series — stream free online.' },
+  { id: 7, title: 'Christian Survival Kit', category: 'Free', price: 0, originalPrice: null as number | null, free: true, cover: '/images/1000045333.webp', description: 'Six foundational booklets for new and growing believers.' },
+  { id: 8, title: "Our Classics Collection", category: 'Audio', price: 49, originalPrice: 79 as number | null, free: false, cover: '/images/1000045321.webp', description: '20+ foundational teaching series on one USB drive.' },
 ];
 
 export default function StoreClient() {

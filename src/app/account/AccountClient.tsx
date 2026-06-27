@@ -13,7 +13,7 @@ export default function AccountClient() {
     <div style={{ minHeight: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '3rem 1.5rem', background: 'var(--bg-primary)' }}>
       <div style={{ width: '100%', maxWidth: '440px' }}>
         <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
-          <span style={{ background: 'linear-gradient(135deg, hsl(var(--brand-amber)), hsl(var(--brand-amber-light)))', color: 'white', width: '50px', height: '50px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: 'var(--radius-md)', fontSize: '1.2rem', fontWeight: 900, fontFamily: 'var(--font-display)', marginBottom: '1rem' }}>AW</span>
+          <span style={{ background: 'linear-gradient(135deg, hsl(var(--brand-amber)), hsl(var(--brand-amber-light)))', color: 'white', width: '50px', height: '50px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: 'var(--radius-md)', fontSize: '1.2rem', fontWeight: 900, fontFamily: 'var(--font-display)', marginBottom: '1rem' }}>TM</span>
           <h1 style={{ fontSize: '1.6rem', letterSpacing: '-0.01em' }}>Partner Account</h1>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.88rem', marginTop: '0.35rem' }}>Access your benefits, library, and giving history</p>
         </div>

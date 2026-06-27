@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
-export const metadata: Metadata = { title: 'Broadcast Schedule', description: 'Gospel Truth TV and radio broadcast times worldwide.' };
+export const metadata: Metadata = { title: 'Broadcast Schedule', description: 'Triumphant Gospel TV and radio broadcast times worldwide.' };
 
 export default function SchedulePage() {
   const CHANNELS = [
     { name: 'Daystar Television', times: ['Mon–Fri 7:00 AM ET', 'Mon–Fri 10:00 PM ET', 'Sat 12:00 PM ET'] },
     { name: 'TBN (Trinity Broadcasting)', times: ['Mon–Fri 6:30 AM ET', 'Sat 1:00 AM ET'] },
     { name: 'Inspiration Network', times: ['Mon–Fri 8:30 AM ET', 'Sun 5:30 PM ET'] },
-    { name: 'Gospel Truth Network (GTN)', times: ['24/7 Online Streaming'] },
-    { name: 'AWM Website', times: ['On Demand — All Episodes'] },
+    { name: 'Triumphant Gospel Network (TGN)', times: ['24/7 Online Streaming'] },
+    { name: 'TM Website', times: ['On Demand — All Episodes'] },
     { name: 'Sirius XM Radio', times: ['Channel 131 — Mon–Fri 12:00 PM ET'] },
   ];
   const TIMEZONES = [
@@ -22,7 +22,7 @@ export default function SchedulePage() {
         <div className="container">
           <span className="eyebrow" style={{ color: 'hsl(var(--brand-amber))' }}>On Air</span>
           <h1 style={{ fontSize: 'clamp(2rem,4vw,3rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '0.75rem' }}>Broadcast Schedule</h1>
-          <p style={{ color: 'rgba(255,255,255,0.62)', maxWidth: '520px', lineHeight: 1.65 }}>Gospel Truth airs on networks worldwide. Find a time and channel that works for you — or watch anytime online.</p>
+          <p style={{ color: 'rgba(255,255,255,0.62)', maxWidth: '520px', lineHeight: 1.65 }}>Triumphant Gospel airs on networks worldwide. Find a time and channel that works for you — or watch anytime online.</p>
         </div>
       </div>
       <div className="container" style={{ padding: '2.5rem 1.5rem' }}>

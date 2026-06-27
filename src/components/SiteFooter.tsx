@@ -13,8 +13,8 @@ export const SiteFooter: React.FC = () => {
           {/* Brand */}
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', marginBottom: '1.25rem' }}>
-              <span style={{ background: 'linear-gradient(135deg, hsl(var(--brand-amber)), hsl(var(--brand-amber-light)))', color: 'white', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '7px', fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '0.95rem' }}>AW</span>
-              <span style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.1rem', color: 'white' }}>AWM Ministries</span>
+              <span style={{ background: 'linear-gradient(135deg, hsl(var(--brand-amber)), hsl(var(--brand-amber-light)))', color: 'white', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '7px', fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '0.95rem' }}>TM</span>
+              <span style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.1rem', color: 'white' }}>The Triumphant Ministry</span>
             </div>
             <p style={{ fontSize: '0.88rem', lineHeight: 1.65, color: 'rgba(255,255,255,0.55)', maxWidth: '280px', marginBottom: '1.5rem' }}>
               Teaching God's unconditional love and grace to the world — free of charge since 1978.
@@ -55,7 +55,7 @@ export const SiteFooter: React.FC = () => {
           <div>
             <p className="footer-heading">Stay Connected</p>
             <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.5)', marginBottom: '1rem', lineHeight: 1.55 }}>
-              Receive Andrew's weekly devotional and broadcast updates directly in your inbox.
+              Receive Our weekly devotional and broadcast updates directly in your inbox.
             </p>
             {!subbed ? (
               <div className="newsletter-input">
@@ -72,7 +72,7 @@ export const SiteFooter: React.FC = () => {
         </div>
 
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} AWM Ministries, Inc. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} The Triumphant Ministry All rights reserved.</span>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             {['Privacy Policy', 'Terms of Use', 'Contact'].map(t => (
               <a key={t} href="#" style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.82rem', transition: 'color 0.18s ease' }}

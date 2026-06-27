@@ -16,12 +16,12 @@ interface Episode {
 const EPISODES: Episode[] = [
   {
     id: 'ep1',
-    title: "Gospel Truth: God's Will is Healing (Part 1)",
+    title: "Triumphant Gospel: God's Will is Healing (Part 1)",
     category: 'tv',
     duration: '28:15',
     url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', // sample mp4
-    thumbnail: '/images/hero_background.png',
-    description: "In this teaching, Andrew Wommack shares how God's will is always healing. Learn how Jesus paid for your sicknesses and diseases on the cross, and how to stand in authority against somatic systems.",
+    thumbnail: '/images/1000045321.webp',
+    description: "In this teaching, The Triumphant Ministry shares how God's will is always healing. Learn how Jesus paid for your sicknesses and diseases on the cross, and how to stand in authority against somatic systems.",
     airDate: 'May 22, 2026',
   },
   {
@@ -30,8 +30,8 @@ const EPISODES: Episode[] = [
     category: 'healing',
     duration: '15:40',
     url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
-    thumbnail: '/images/lance_testimony.png',
-    description: "Doctors gave Lance weeks to live due to a critical liver failure. By listening to Andrew's teaching and taking authority in Jesus' name, his body was completely transformed and healed.",
+    thumbnail: '/images/1000045322.webp',
+    description: "Doctors gave Lance weeks to live due to a critical liver failure. By listening to Our teaching and taking authority in Jesus' name, his body was completely transformed and healed.",
     airDate: 'April 14, 2026',
   },
   {
@@ -40,27 +40,27 @@ const EPISODES: Episode[] = [
     category: 'destiny',
     duration: '22:10',
     url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-    thumbnail: '/images/charis_college.png',
-    description: "Follow the journey of students discovering their God-given destiny at Charis Bible College. Nestled in the Rocky Mountains, they find clarity, training, and spiritual empowerment.",
+    thumbnail: '/images/1000045325.webp',
+    description: "Follow the journey of students discovering their God-given destiny at Triumphant Bible Institute. Nestled in the Rocky Mountains, they find clarity, training, and spiritual empowerment.",
     airDate: 'March 18, 2026',
   },
   {
     id: 'ep4',
-    title: "Truth & Liberty Coalition: Healing our Land",
+    title: "Triumphant Truth Coalition: Healing our Land",
     category: 'events',
     duration: '45:30',
     url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-    thumbnail: '/images/truth_liberty.png',
+    thumbnail: '/images/1000045326.webp',
     description: "Highlights from the national truth summit. Explore how faith and modern governance intersect, and how we are called to bring truth and godly leadership back to our local communities.",
     airDate: 'May 10, 2026',
   },
   {
     id: 'ep5',
-    title: "Gospel Truth: The Power of Unconditional Grace",
+    title: "Triumphant Gospel: The Power of Unconditional Grace",
     category: 'tv',
     duration: '27:50',
     url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
-    thumbnail: '/images/hero_background.png',
+    thumbnail: '/images/1000045321.webp',
     description: "Andrew reveals how God's love does not depend on your performance, but on Jesus' finished work. Break free from legalism and walk in the true liberty of the gospel.",
     airDate: 'May 21, 2026',
   },
@@ -70,7 +70,7 @@ const EPISODES: Episode[] = [
     category: 'healing',
     duration: '18:25',
     url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
-    thumbnail: '/images/lance_testimony.png',
+    thumbnail: '/images/1000045322.webp',
     description: "Diagnosed with progressive macular degeneration, Hannah was losing her sight. Discover how simple, child-like faith in God's promises restored her vision entirely.",
     airDate: 'Feb 28, 2026',
   },
@@ -201,7 +201,7 @@ export default function WatchPage() {
           <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'hsl(var(--brand-blue))', textTransform: 'uppercase', letterSpacing: '1px' }}>
             Broadcasting Center
           </span>
-          <h1 style={{ fontSize: '2.5rem', marginTop: '0.25rem' }}>Watch Gospel Truth & Journeys</h1>
+          <h1 style={{ fontSize: '2.5rem', marginTop: '0.25rem' }}>Watch Triumphant Gospel & Journeys</h1>
         </div>
 
         {/* Video layout: Player & Sidebar info */}
@@ -439,7 +439,7 @@ export default function WatchPage() {
           <div className="glass-panel" style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
             <h3 style={{ fontSize: '1.15rem' }}>Broadcasting Schedule</h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
-              The Gospel Truth program airs Monday through Friday on networks worldwide, including Daystar, TBN, and online portals.
+              The Triumphant Gospel program airs Monday through Friday on networks worldwide, including Daystar, TBN, and online portals.
             </p>
             <div style={{ borderTop: '1px solid var(--border-glass)', paddingTop: '1.25rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <div>
@@ -452,7 +452,7 @@ export default function WatchPage() {
               </div>
             </div>
             <a
-              href="https://www.awmi.net/tv-schedule/"
+              href="https://www.triumphantministry.com/tv-schedule/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline"

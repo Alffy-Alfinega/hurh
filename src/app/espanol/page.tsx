@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-export const metadata: Metadata = { title: 'En Español', description: 'Enseñanzas, transmisiones y recursos de AWM Ministerios en español.' };
+export const metadata: Metadata = { title: 'En Español', description: 'Enseñanzas, transmisiones y recursos de TM Ministerios en español.' };
 import Link from 'next/link';
 
 export default function EspanolPage() {
   const RESOURCES = [
-    { title: 'La Verdad del Evangelio (TV)', desc: 'Vea el programa diario de Andrew Wommack en español, de lunes a viernes.', href: '/watch', icon: '📺' },
+    { title: 'La Verdad del Evangelio (TV)', desc: 'Vea el programa diario de The Triumphant Ministry en español, de lunes a viernes.', href: '/watch', icon: '📺' },
     { title: 'Enseñanzas de Audio', desc: 'Cientos de series de enseñanza gratuitas completamente en español.', href: '/listen', icon: '🎧' },
     { title: 'Devocional Diario', desc: 'El devocional diario de Andrew traducido al español — lea cada día.', href: '/read', icon: '📖' },
     { title: 'Centro de Sanidad', desc: 'Escrituras de sanidad y solicitud de oración — en su idioma.', href: '/healing', icon: '✝️' },
@@ -16,7 +16,7 @@ export default function EspanolPage() {
       <div style={{ background: 'linear-gradient(135deg, #7c3aed, #020617)', padding: '5rem 0 6rem', color: 'white', textAlign: 'center' }}>
         <div className="container">
           <span style={{ fontSize: '3rem', display: 'block', marginBottom: '1rem' }}>🇪🇸</span>
-          <span style={{ fontSize: '0.78rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.55)', display: 'block', marginBottom: '0.75rem' }}>Ministerios AWM</span>
+          <span style={{ fontSize: '0.78rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.55)', display: 'block', marginBottom: '0.75rem' }}>Ministerios TM</span>
           <h1 style={{ fontSize: 'clamp(2rem,5vw,3.5rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '1rem' }}>Bienvenidos al Español</h1>
           <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: '560px', margin: '0 auto 2rem' }}>
             El amor incondicional y la gracia de Dios son para todos. Acceda a enseñanzas, transmisiones y recursos completamente en español — todo gratis.

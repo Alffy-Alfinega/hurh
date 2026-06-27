@@ -15,7 +15,7 @@ const STATS = [
 const TRUST_BADGES = [
   { icon: '📡', label: 'Daystar TV' },
   { icon: '✝️', label: 'TBN Network' },
-  { icon: '🌍', label: 'Gospel Truth Daily' },
+  { icon: '🌍', label: 'Triumphant Gospel Daily' },
 ];
 
 export default function Home() {
@@ -25,9 +25,9 @@ export default function Home() {
     playTrack({
       id: 'daily-broadcast-today',
       title: "God's Will is Healing (Part 1)",
-      speaker: 'Andrew Wommack',
+      speaker: 'The Triumphant Ministry',
       url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-      coverUrl: '/images/hero_background.png',
+      coverUrl: '/images/1000045321.webp',
     });
   };
 
@@ -36,7 +36,7 @@ export default function Home() {
       {/* ── 1. HERO ──────────────────────────────────────────── */}
       <section style={{
         position: 'relative', minHeight: '88vh', display: 'flex', alignItems: 'center',
-        backgroundImage: 'linear-gradient(160deg, rgba(7,22,50,0.92) 0%, rgba(15,83,138,0.55) 55%, rgba(6,11,19,0.93) 100%), url("/images/hero_background.png")',
+        backgroundImage: 'linear-gradient(160deg, rgba(7,22,50,0.92) 0%, rgba(15,83,138,0.55) 55%, rgba(6,11,19,0.93) 100%), url("/images/1000045321.webp")',
         backgroundSize: 'cover', backgroundPosition: 'center 30%', color: 'white',
         padding: '6rem 0 4rem',
       }}>
@@ -58,7 +58,7 @@ export default function Home() {
           </h1>
 
           <p style={{ fontSize: 'clamp(1rem, 2vw, 1.18rem)', color: 'rgba(255,255,255,0.72)', maxWidth: '560px', lineHeight: 1.65, marginBottom: '2.25rem' }}>
-            Discover God's unconditional love. Walk in health, victory, and the power of His promises through the Word-based teachings of Andrew Wommack.
+            Discover God's unconditional love. Walk in health, victory, and the power of His promises through the Word-based teachings of The Triumphant Ministry.
           </p>
 
           <div style={{ display: 'flex', gap: '0.85rem', flexWrap: 'wrap', marginBottom: '3.5rem' }}>
@@ -102,7 +102,7 @@ export default function Home() {
             <div>
               <span className="eyebrow">Featured Broadcast</span>
               <h2 style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.5rem)', marginBottom: '1rem', letterSpacing: '-0.01em' }}>
-                Gospel Truth Daily TV Show
+                Triumphant Gospel Daily Broadcast
               </h2>
               <p style={{ color: 'var(--text-secondary)', marginBottom: '1.75rem', lineHeight: 1.7, fontSize: '0.97rem' }}>
                 Join Andrew today as he explores how God has already provided everything you need for healing, prosperity, and peace. Learn to receive by faith what grace has already provided — no striving required.
@@ -121,7 +121,7 @@ export default function Home() {
               onClick={handlePlayDailyBroadcast}
               style={{
                 height: '300px', padding: 0,
-                backgroundImage: 'linear-gradient(rgba(0,0,0,0.08), rgba(0,0,0,0.6)), url("/images/hero_background.png")',
+                backgroundImage: 'linear-gradient(rgba(0,0,0,0.08), rgba(0,0,0,0.6)), url("/images/1000045321.webp")',
                 backgroundSize: 'cover', backgroundPosition: 'center',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
               }}
@@ -135,7 +135,7 @@ export default function Home() {
               <div style={{ position: 'absolute', bottom: '1.25rem', left: '1.25rem', color: 'white' }}>
                 <span className="badge badge-white" style={{ marginBottom: '0.4rem' }}>● LIVE TODAY</span>
                 <h4 style={{ color: 'white', fontSize: '1rem', margin: 0 }}>God's Will is Healing</h4>
-                <p style={{ fontSize: '0.82rem', opacity: 0.72, margin: '0.2rem 0 0' }}>Andrew Wommack · 28 min</p>
+                <p style={{ fontSize: '0.82rem', opacity: 0.72, margin: '0.2rem 0 0' }}>The Triumphant Ministry · 28 min</p>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function Home() {
             gap: '2.5rem', padding: '3rem', alignItems: 'center',
           }}>
             <div style={{ position: 'relative', width: '100%', aspectRatio: '1/1', maxHeight: '340px', borderRadius: 'var(--radius-md)', overflow: 'hidden', boxShadow: 'var(--shadow-lg)' }}>
-              <Image src="/images/lance_testimony.png" alt="Lance — Healing Testimony" fill sizes="(max-width: 768px) 100vw, 440px" style={{ objectFit: 'cover' }} />
+              <Image src="/images/1000045322.webp" alt="Lance — Healing Testimony" fill sizes="(max-width: 768px) 100vw, 440px" style={{ objectFit: 'cover' }} />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(6,11,19,0.5), transparent)' }} />
               <div style={{ position: 'absolute', bottom: '1rem', left: '1rem' }}>
                 <span className="badge badge-white">Verified Testimony</span>
@@ -166,7 +166,7 @@ export default function Home() {
                 borderLeft: '3px solid hsl(var(--brand-amber))', paddingLeft: '1.1rem',
                 marginBottom: '1.75rem', lineHeight: 1.65,
               }}>
-                "The doctors told me my liver was failing and I had weeks to live. But when I understood Andrew's teaching on authority and stood on 1 Peter 2:24, the report changed completely. I am 100% whole today."
+                "The doctors told me my liver was failing and I had weeks to live. But when I understood Our teaching on authority and stood on 1 Peter 2:24, the report changed completely. I am 100% whole today."
               </blockquote>
               <div style={{ display: 'flex', gap: '0.85rem', flexWrap: 'wrap' }}>
                 <Link href="/healing" className="btn btn-amber">Read More Journeys</Link>
@@ -189,35 +189,35 @@ export default function Home() {
           </div>
 
           <div className="grid-cols-3">
-            {/* Charis College */}
+            {/* Triumphant College */}
             <div className="card" style={{ padding: 0, display: 'flex', flexDirection: 'column', height: '100%' }}>
               <div style={{ position: 'relative', width: '100%', height: '190px' }}>
-                <Image src="/images/charis_college.png" alt="Charis Bible College" fill sizes="400px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/1000045325.webp" alt="Triumphant Bible Institute" fill sizes="400px" style={{ objectFit: 'cover' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(6,11,19,0.3), transparent)' }} />
               </div>
               <div style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
                 <span className="eyebrow" style={{ fontSize: '0.7rem' }}>Bible College</span>
-                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.6rem' }}>Charis Bible College</h3>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.6rem' }}>Triumphant Bible Institute</h3>
                 <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', flex: 1, marginBottom: '1.25rem', lineHeight: 1.6 }}>
                   Nestled in the Rocky Mountains of Woodland Park, Colorado. Discover your destiny with strong biblical foundations.
                 </p>
-                <a href="https://www.charisbiblecollege.org" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ width: '100%', fontSize: '0.85rem' }}>Learn More ↗</a>
+                <a href="https://www.triumphantministry.com/bible-institute" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ width: '100%', fontSize: '0.85rem' }}>Learn More ↗</a>
               </div>
             </div>
 
             {/* Truth & Liberty */}
             <div className="card" style={{ padding: 0, display: 'flex', flexDirection: 'column', height: '100%' }}>
               <div style={{ position: 'relative', width: '100%', height: '190px' }}>
-                <Image src="/images/truth_liberty.png" alt="Truth and Liberty Coalition" fill sizes="400px" style={{ objectFit: 'cover' }} />
+                <Image src="/images/1000045326.webp" alt="Truth and Liberty Coalition" fill sizes="400px" style={{ objectFit: 'cover' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(6,11,19,0.3), transparent)' }} />
               </div>
               <div style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
                 <span className="eyebrow" style={{ fontSize: '0.7rem' }}>Coalition</span>
-                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.6rem' }}>Truth &amp; Liberty Coalition</h3>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.6rem' }}>Triumphant Truth Coalition</h3>
                 <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', flex: 1, marginBottom: '1.25rem', lineHeight: 1.6 }}>
                   Educating, unifying, and activating believers to impact culture and reform government with godly values.
                 </p>
-                <a href="https://truthandliberty.net" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ width: '100%', fontSize: '0.85rem' }}>Explore ↗</a>
+                <a href="https://triumphantministry.com/truth" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ width: '100%', fontSize: '0.85rem' }}>Explore ↗</a>
               </div>
             </div>
 
@@ -227,7 +227,7 @@ export default function Home() {
                 <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /></svg>
               </div>
               <span className="eyebrow-amber" style={{ textAlign: 'center', marginBottom: '0.5rem' }}>Prayer & Healing</span>
-              <h3 style={{ fontSize: '1.2rem', marginBottom: '0.75rem' }}>Charis Healing Center</h3>
+              <h3 style={{ fontSize: '1.2rem', marginBottom: '0.75rem' }}>Triumphant Healing Center</h3>
               <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', flex: 1, lineHeight: 1.6 }}>
                 Receive prayer, review healing scriptures, and request direct prayer support. We stand with you for complete recovery.
               </p>
@@ -267,7 +267,7 @@ export default function Home() {
           <span className="badge badge-white" style={{ marginBottom: '0.25rem' }}>180+ Countries</span>
           <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)', color: 'white', letterSpacing: '-0.01em', maxWidth: '600px' }}>Become a Partner in Grace</h2>
           <p style={{ color: 'rgba(255,255,255,0.65)', maxWidth: '520px', fontSize: '0.97rem', lineHeight: 1.7 }}>
-            When you partner with Andrew Wommack Ministries, you help bring the message of God's unconditional love and grace to millions — at no cost to them.
+            When you partner with The Triumphant Ministry, you help bring the message of God's unconditional love and grace to millions — at no cost to them.
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center', marginTop: '0.5rem' }}>
             <Link href="/give" className="btn btn-amber btn-lg">Start Partnering</Link>

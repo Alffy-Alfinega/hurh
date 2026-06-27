@@ -54,7 +54,7 @@
 - ✅ Suspense boundary on /search (useSearchParams)
 - ✅ GitHub push — Alffy-Alfinega/hurh (5 commits, clean history)
 - ⏳ Vercel deploy — needs manual connect at vercel.com/new (Vercel MCP uses separate auth from GitHub PAT)
-- ⏳ Client branding swap (name, colors, logo, images)
+- ✅ Client rebranded — The Triumphant Ministry, real WebP images deployed
 
 ## vs awmi.net — Performance Comparison
 | Metric | awmi.net | HURH |

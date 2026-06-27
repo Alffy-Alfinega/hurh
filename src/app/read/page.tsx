@@ -320,7 +320,7 @@ export default function ReadPage() {
               {/* Commentary */}
               <div style={{ marginBottom: '2rem' }}>
                 <h4 style={{ fontSize: '1rem', color: 'hsl(var(--brand-blue-dark))', marginBottom: '0.5rem' }}>
-                  Andrew's Devotional Commentary:
+                  Our Devotional Commentary:
                 </h4>
                 <p style={{ color: 'var(--text-secondary)', lineHeight: 1.6, fontSize: '0.95rem' }}>
                   {currentDevotional.commentary}
@@ -362,7 +362,7 @@ export default function ReadPage() {
               >
                 Study Helper
               </span>
-              <h2 style={{ fontSize: '2.2rem', marginTop: '0.25rem' }}>Andrew's Online Living Commentary</h2>
+              <h2 style={{ fontSize: '2.2rem', marginTop: '0.25rem' }}>Our Online Living Commentary</h2>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', marginTop: '0.5rem' }}>
                 Search detailed verses. Try typing <strong style={{ color: 'hsl(var(--brand-amber))' }}>John 3:16</strong>, <strong style={{ color: 'hsl(var(--brand-amber))' }}>Romans 8:1</strong>, or <strong style={{ color: 'hsl(var(--brand-amber))' }}>Galatians 2:20</strong> below.
               </p>
@@ -416,7 +416,7 @@ export default function ReadPage() {
                     )}
 
                     <div>
-                      <h4 style={{ fontSize: '1rem', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Andrew's Note:</h4>
+                      <h4 style={{ fontSize: '1rem', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>Our Note:</h4>
                       <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>
                         {searchResult.note}
                       </p>

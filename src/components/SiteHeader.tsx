@@ -8,7 +8,7 @@ const NAV = [
   {
     href: '/watch', label: 'Watch',
     sub: [
-      { href: '/watch', label: 'Gospel Truth TV' },
+      { href: '/watch', label: 'Triumphant Gospel TV' },
       { href: '/watch?tab=series', label: 'Video Series' },
       { href: '/schedule', label: 'Broadcast Schedule' },
     ],
@@ -105,8 +105,8 @@ export const SiteHeader: React.FC = () => {
               display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
               borderRadius: 'var(--radius-sm)', fontSize: '1rem', fontWeight: 900,
               boxShadow: 'var(--shadow-amber)', flexShrink: 0,
-            }}>AW</span>
-            <span className="text-gradient-blue hide-mobile" style={{ letterSpacing: '-0.01em' }}>AWM Ministries</span>
+            }}>TM</span>
+            <span className="text-gradient-blue hide-mobile" style={{ letterSpacing: '-0.01em' }}>The Triumphant Ministry</span>
           </Link>
 
           {/* Desktop nav with dropdowns */}
@@ -231,7 +231,7 @@ export const SiteHeader: React.FC = () => {
       {/* Mobile overlay */}
       <div className={`mobile-nav-overlay${menuOpen ? ' open' : ''}`}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-          <span style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '1.1rem', color: 'hsl(var(--brand-amber))' }}>AWM Ministries</span>
+          <span style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '1.1rem', color: 'hsl(var(--brand-amber))' }}>The Triumphant Ministry</span>
           <button onClick={() => setMenuOpen(false)} style={{ background: 'rgba(255,255,255,0.08)', border: 'none', borderRadius: '50%', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'white' }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
           </button>

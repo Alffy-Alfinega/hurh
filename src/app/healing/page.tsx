@@ -13,7 +13,7 @@ const SCRIPTURES = [
 const TESTIMONIES = [
   { name: "Lance's Liver Healing", preview: 'Doctors gave Lance weeks to live due to critical liver failure. By standing on 1 Peter 2:24 and applying Andrew\'s teaching, his body was completely transformed.', category: 'terminal' },
   { name: "Hannah's Eyesight Restored", preview: 'Diagnosed with progressive macular degeneration, Hannah claimed God\'s promise for healing. At her next check-up, her retina was completely healthy and her vision fully restored.', category: 'chronic' },
-  { name: 'Freedom from 15-Year Back Pain', preview: 'Michael lived with debilitating lumbar stenosis for 15 years. During a Charis Healing conference, he commanded the pain to leave. It vanished immediately — he has been drug-free since.', category: 'chronic' },
+  { name: 'Freedom from 15-Year Back Pain', preview: 'Michael lived with debilitating lumbar stenosis for 15 years. During a Triumphant Healing conference, he commanded the pain to leave. It vanished immediately — he has been drug-free since.', category: 'chronic' },
   { name: 'Healed of Stage 4 Cancer', preview: 'Given a terminal diagnosis, Margaret refused to accept it. She listened to healing scriptures daily. Her oncologist called her results "medically inexplicable." She is cancer-free today.', category: 'terminal' },
 ];
 
@@ -40,7 +40,7 @@ export default function HealingPage() {
         <div style={{ position: 'absolute', top: '-60px', right: '-60px', width: '350px', height: '350px', background: 'radial-gradient(circle, rgba(22,163,74,0.1) 0%, transparent 70%)', pointerEvents: 'none' }} />
         <div className="container" style={{ position: 'relative', textAlign: 'center' }}>
           <span className="badge badge-green" style={{ marginBottom: '1.25rem', display: 'inline-flex' }}>Grace &amp; Recovery</span>
-          <h1 style={{ fontSize: 'clamp(2rem, 4.5vw, 3.2rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '0.85rem' }}>Charis Healing Center</h1>
+          <h1 style={{ fontSize: 'clamp(2rem, 4.5vw, 3.2rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '0.85rem' }}>Triumphant Healing Center</h1>
           <p style={{ color: 'rgba(255,255,255,0.62)', maxWidth: '540px', margin: '0 auto', fontSize: '0.97rem', lineHeight: 1.65, fontStyle: 'italic' }}>
             "He sent his word, and healed them, and delivered them from their destructions." — Psalms 107:20
           </p>

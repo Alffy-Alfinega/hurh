@@ -6,7 +6,7 @@ const EVENTS = [
   { id: 2, title: 'NXT Level Conference', date: 'July 18–20, 2026', location: 'Woodland Park, CO', type: 'Conference', description: 'A conference designed to take your faith to the next level.', featured: true },
   { id: 3, title: 'Truth & Liberty Conference', date: 'September 5–7, 2026', location: 'Colorado Springs, CO', type: 'Conference', description: 'Educating, unifying, and activating believers to impact culture.', featured: false },
   { id: 4, title: 'Live Bible Study', date: 'Every Tuesday, 7 PM MT', location: 'Online / Live Stream', type: 'Weekly', description: 'Join Andrew every Tuesday for a live verse-by-verse exploration of the Bible.', featured: false },
-  { id: 5, title: 'Gospel Truth Charis Special', date: 'October 10, 2026', location: 'Woodland Park, CO', type: 'Special Event', description: 'A special live broadcast from Charis Bible College.', featured: false },
+  { id: 5, title: 'Triumphant Gospel Triumphant Special', date: 'October 10, 2026', location: 'Woodland Park, CO', type: 'Special Event', description: 'A special live broadcast from Triumphant Bible Institute.', featured: false },
   { id: 6, title: 'SFBC Ministers Conference', date: 'November 3–5, 2026', location: 'Online / Hybrid', type: 'Conference', description: 'Annual conference for ministers, pastors, and church leaders.', featured: false },
 ];
 
