@@ -208,7 +208,7 @@ export default function WatchPage() {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: '3fr 1.2fr',
+            gridTemplateColumns: '1fr',
             gap: '2.5rem',
             marginBottom: '4rem',
             alignItems: 'start',

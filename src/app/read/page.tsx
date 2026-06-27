@@ -135,28 +135,29 @@ export default function ReadPage() {
   };
 
   return (
-    <div style={{ padding: '3rem 0' }}>
+    <div style={{ padding: 'clamp(1.5rem, 5vw, 3rem) 0' }}>
       <div className="container">
         {/* Read Header */}
         <div style={{ marginBottom: '3rem' }}>
           <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'hsl(var(--brand-blue))', textTransform: 'uppercase', letterSpacing: '1px' }}>
             Daily Devotion & Study
           </span>
-          <h1 style={{ fontSize: '2.5rem', marginTop: '0.25rem' }}>Daily Devotional & Living Commentary</h1>
+          <h1 style={{ fontSize: 'clamp(1.6rem, 5vw, 2.5rem)', marginTop: '0.25rem' }}>Daily Devotional & Living Commentary</h1>
         </div>
 
         {/* 1. Devotional Split Layout */}
         <div
+          className="read-layout"
           style={{
             display: 'grid',
-            gridTemplateColumns: '1.2fr 2fr',
-            gap: '3rem',
+            gridTemplateColumns: '1fr',
+            gap: '1.5rem',
             alignItems: 'start',
-            marginBottom: '5rem',
+            marginBottom: '3rem',
           }}
         >
           {/* Calendar Picker Card */}
-          <div className="glass-panel" style={{ padding: '2rem' }}>
+          <div className="glass-panel" style={{ padding: 'clamp(1rem, 3vw, 2rem)' }}>
             <h3 style={{ fontSize: '1.2rem', marginBottom: '1.25rem', textAlign: 'center' }}>
               May 2026 Devotional Calendar
             </h3>
@@ -265,8 +266,8 @@ export default function ReadPage() {
             <div
               className="card"
               style={{
-                padding: '2.5rem',
-                minHeight: '400px',
+                padding: 'clamp(1rem, 4vw, 2.5rem)',
+                minHeight: 'auto',
                 borderColor: 'hsla(var(--brand-amber), 0.25)',
                 boxShadow: 'var(--shadow-md)',
               }}
@@ -299,7 +300,7 @@ export default function ReadPage() {
                 </span>
               </div>
 
-              <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>{currentDevotional.title}</h2>
+              <h2 style={{ fontSize: 'clamp(1.3rem, 4vw, 2rem)', marginBottom: '1rem' }}>{currentDevotional.title}</h2>
               
               {/* Scripture text block */}
               <div
@@ -362,13 +363,13 @@ export default function ReadPage() {
               >
                 Study Helper
               </span>
-              <h2 style={{ fontSize: '2.2rem', marginTop: '0.25rem' }}>Our Online Living Commentary</h2>
+              <h2 style={{ fontSize: 'clamp(1.4rem, 4vw, 2.2rem)', marginTop: '0.25rem' }}>Our Online Living Commentary</h2>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', marginTop: '0.5rem' }}>
                 Search detailed verses. Try typing <strong style={{ color: 'hsl(var(--brand-amber))' }}>John 3:16</strong>, <strong style={{ color: 'hsl(var(--brand-amber))' }}>Romans 8:1</strong>, or <strong style={{ color: 'hsl(var(--brand-amber))' }}>Galatians 2:20</strong> below.
               </p>
             </div>
 
-            <form onSubmit={handleCommentarySearch} style={{ display: 'flex', gap: '0.5rem', marginBottom: '2rem' }}>
+            <form onSubmit={handleCommentarySearch} style={{ display: 'flex', gap: '0.5rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
               <input
                 type="text"
                 placeholder="Search verse commentary (e.g. John 3:16)..."
