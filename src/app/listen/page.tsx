@@ -33,7 +33,7 @@ export default function ListenPage() {
     <div style={{ paddingBottom: '2rem' }}>
       {/* Page Header */}
       <div style={{ background: 'linear-gradient(135deg, hsl(var(--brand-blue-dark)), #020617)', padding: '4rem 0 5rem', color: 'white', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ position: 'absolute', top: '-40px', right: '-40px', width: '300px', height: '300px', background: 'radial-gradient(circle, rgba(214,123,18,0.12) 0%, transparent 70%)', pointerEvents: 'none' }} />
+        <div style={{ position: 'absolute', top: '-40px', right: '0', width: '220px', height: '220px', background: 'radial-gradient(circle, rgba(214,123,18,0.12) 0%, transparent 70%)', pointerEvents: 'none' }} />
         <div className="container" style={{ position: 'relative' }}>
           <span className="eyebrow" style={{ color: 'hsl(var(--brand-amber))' }}>Audio Archives</span>
           <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '0.75rem' }}>Audio Teachings Library</h1>

@@ -35,13 +35,13 @@ export default function Home() {
     <div>
       {/* ── 1. HERO ──────────────────────────────────────────── */}
       <section style={{
-        position: 'relative', minHeight: '88vh', display: 'flex', alignItems: 'center',
+        position: 'relative', minHeight: '88vh', display: 'flex', alignItems: 'center', overflow: 'hidden',
         backgroundImage: 'linear-gradient(160deg, rgba(7,22,50,0.92) 0%, rgba(15,83,138,0.55) 55%, rgba(6,11,19,0.93) 100%), url("/images/1000045321.webp")',
         backgroundSize: 'cover', backgroundPosition: 'center 30%', color: 'white',
         padding: '6rem 0 4rem',
       }}>
         {/* Ambient glow */}
-        <div style={{ position: 'absolute', top: '30%', left: '50%', transform: 'translate(-50%,-50%)', width: '600px', height: '400px', background: 'radial-gradient(ellipse, rgba(34,122,173,0.18) 0%, transparent 70%)', pointerEvents: 'none' }} />
+        <div style={{ position: 'absolute', top: '30%', left: '50%', transform: 'translate(-50%,-50%)', width: '100%', maxWidth: '600px', height: '400px', background: 'radial-gradient(ellipse, rgba(34,122,173,0.18) 0%, transparent 70%)', pointerEvents: 'none', overflow: 'hidden' }} />
 
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           {/* Live badge */}

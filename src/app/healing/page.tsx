@@ -37,7 +37,7 @@ export default function HealingPage() {
     <div>
       {/* Header */}
       <div style={{ background: 'linear-gradient(135deg, #0b4a2e, #020617)', padding: '4.5rem 0 5.5rem', color: 'white', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ position: 'absolute', top: '-60px', right: '-60px', width: '350px', height: '350px', background: 'radial-gradient(circle, rgba(22,163,74,0.1) 0%, transparent 70%)', pointerEvents: 'none' }} />
+        <div style={{ position: 'absolute', top: '-60px', right: '0', width: '280px', height: '280px', background: 'radial-gradient(circle, rgba(22,163,74,0.1) 0%, transparent 70%)', pointerEvents: 'none' }} />
         <div className="container" style={{ position: 'relative', textAlign: 'center' }}>
           <span className="badge badge-green" style={{ marginBottom: '1.25rem', display: 'inline-flex' }}>Grace &amp; Recovery</span>
           <h1 style={{ fontSize: 'clamp(2rem, 4.5vw, 3.2rem)', color: 'white', letterSpacing: '-0.02em', marginBottom: '0.85rem' }}>Triumphant Healing Center</h1>

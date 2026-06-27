@@ -128,7 +128,7 @@ export const SiteHeader: React.FC = () => {
                     position: 'absolute', top: '100%', left: 0,
                     background: 'var(--bg-secondary)', border: '1px solid var(--border-glass)',
                     borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-lg)',
-                    padding: '0.5rem', minWidth: '200px', zIndex: 200,
+                    padding: '0.5rem', minWidth: '180px', maxWidth: 'calc(100vw - 2rem)', zIndex: 200,
                     animation: 'fadeIn 0.15s ease',
                   }}>
                     {n.sub.map(s => (
@@ -199,7 +199,7 @@ export const SiteHeader: React.FC = () => {
           style={{ position: 'fixed', inset: 0, zIndex: 3000, background: 'rgba(6,11,19,0.8)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'flex-start', justifyContent: 'center', padding: '8vh 1.5rem 0' }}
           onClick={e => e.target === e.currentTarget && setSearchOpen(false)}
         >
-          <div style={{ width: '100%', maxWidth: '640px', background: 'var(--bg-secondary)', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-xl)', border: '1px solid var(--border-glass)', overflow: 'hidden' }}>
+          <div style={{ width: '100%', maxWidth: 'min(640px, calc(100vw - 2rem))', background: 'var(--bg-secondary)', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-xl)', border: '1px solid var(--border-glass)', overflow: 'hidden' }}>
             <form onSubmit={handleSearch} style={{ display: 'flex', alignItems: 'center', padding: '1rem 1.25rem', borderBottom: '1px solid var(--border-glass)', gap: '0.75rem' }}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
               <input

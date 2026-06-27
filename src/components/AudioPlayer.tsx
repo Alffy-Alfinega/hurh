@@ -190,7 +190,7 @@ export const AudioPlayer: React.FC = () => {
               display: 'flex',
               alignItems: 'center',
               gap: '0.5rem',
-              minWidth: '150px',
+              minWidth: 0,
               justifyContent: 'flex-end',
               flex: '1 1 0',
             }}

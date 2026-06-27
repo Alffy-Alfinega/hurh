@@ -73,7 +73,7 @@ export default function EventsClient() {
                     <div style={{ fontSize: '0.62rem', fontWeight: 700, textTransform: 'uppercase', color: 'var(--text-muted)' }}>{e.date.split(' ')[0]}</div>
                     <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.1rem' }}>—</div>
                   </div>
-                  <div style={{ flex: 1, minWidth: '200px' }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.3rem', flexWrap: 'wrap', alignItems: 'center' }}>
                       <span style={{ fontSize: '0.7rem', fontWeight: 700, color: TYPE_COLORS[e.type] || 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.07em' }}>{e.type}</span>
                       <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>· {e.location}</span>
